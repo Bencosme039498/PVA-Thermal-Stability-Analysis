@@ -35,7 +35,7 @@ linestyles_dict = OrderedDict(
      ('dashdotdotted',         (0, (3, 5, 1, 5, 1, 5))),
      ('densely dashdotdotted', (0, (3, 1, 1, 1, 1, 1)))])
 
-data = pd.read_excel ("Book2.xlsx",sheet_name = "1")
+data = pd.read_excel ("pva_tga_data.xlsx",sheet_name = "1")
 
 x1 = data["TEMP"]
 y1 = data["MASA"]
